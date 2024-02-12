@@ -1,3 +1,29 @@
 .App {
   text-align: center;
 }
+
+.messages-container {
+  background-color: rgb(237, 240, 245);
+  height: 300px;
+  overflow: auto;
+  position: relative;
+}
+
+.messages-heading {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  opacity: 0.5;
+}
+
+.online-user-container {
+  background-color: rgb(88, 116, 97);
+  margin: 1px;
+  border-radius: 8px;
+  color: rgb(237, 247, 241);
+}
+
+.online-users-container {
+  background-color: rgb(93, 145, 109);
+  border-radius: 6px;
+}
